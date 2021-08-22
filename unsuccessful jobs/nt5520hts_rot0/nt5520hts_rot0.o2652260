@@ -1,0 +1,17 @@
+/var/spool/pbs/mom_priv/jobs/2652260.pbs02.SC: line 18: 3514028 Killed                  psi4 -i ./nt5520hts_rot0.in -o ./nt5520hts_rot0.out
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=75gb,walltime=240:00:00,ncpus=12
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cput=93:44:47,mem=78643204kb,walltime=103:21:45,ncpus=12,cpupercent=90,vmem=78643204kb
+ 
+ 

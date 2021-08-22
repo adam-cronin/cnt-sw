@@ -1,0 +1,15 @@
+hostname
+node07.cluster
+eval `/usr/bin/modulecmd tcsh load psi4conda/1.1`
+/usr/bin/modulecmd tcsh load psi4conda/1.1
+setenv LOADEDMODULES psi4conda/1.1
+setenv PATH /usr/local/Dist/psi4conda/bin:/export/Linux-x86_64/bin:/export/Linux-x86_64/Dist/bin:/export/Linux-x86_64/sbin:/export/Linux-x86_64/global/bin:/export/Linux-x86_64/global/sbin:/home/acronin/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/bin/X11:/export/Linux-x86_64/Dist/bin:/export/Linux-x86_64/sbin:/export/Linux-x86_64/global/bin:/export/Linux-x86_64/Dist/chimera/bin:/export/Linux-x86_64/Dist/Jmol/Jmol
+setenv _LMFILES_ /usr/local/Modules/modulefiles/psi4conda/1.1
+set _exit=0
+/usr/bin/test 0 = 0
+setenv PSI_SCRATCH /scratch/calpoly/acronin
+psi4 -i nt_55_20.in -o nt_55_20.out -n 10
+/usr/local/Dist/psi4conda/lib/python2.7/site-packages/v2rdm_casscf/v2rdm_casscf.so loaded.
+slurmstepd: error: *** JOB 74213 ON node07 CANCELLED AT 2020-12-11T19:57:56 DUE TO TIME LIMIT ***
+slurmstepd: error: Exceeded step memory limit at some point.
+slurmstepd: error: Exceeded job memory limit at some point.

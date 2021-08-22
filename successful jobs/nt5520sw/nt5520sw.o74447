@@ -1,0 +1,32 @@
+hostname
+node01.cluster
+eval `/usr/bin/modulecmd tcsh load psi4conda/1.1`
+/usr/bin/modulecmd tcsh load psi4conda/1.1
+setenv LOADEDMODULES psi4conda/1.1
+setenv PATH /usr/local/Dist/psi4conda/bin:/export/Linux-x86_64/bin:/export/Linux-x86_64/Dist/bin:/export/Linux-x86_64/sbin:/export/Linux-x86_64/global/bin:/export/Linux-x86_64/global/sbin:/home/acronin/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/bin/X11:/export/Linux-x86_64/Dist/bin:/export/Linux-x86_64/sbin:/export/Linux-x86_64/global/bin:/export/Linux-x86_64/Dist/chimera/bin:/export/Linux-x86_64/Dist/Jmol/Jmol
+setenv _LMFILES_ /usr/local/Modules/modulefiles/psi4conda/1.1
+set _exit=0
+/usr/bin/test 0 = 0
+setenv PSI_SCRATCH /scratch/calpoly/acronin
+psi4 -i nt5520sw.in -o nt5520sw.out -n 10
+/usr/local/Dist/psi4conda/lib/python2.7/site-packages/v2rdm_casscf/v2rdm_casscf.so loaded.
+
+Error: option 20 is not contained in the list of available options.
+
+Did you mean? CC MS0 P PR S T XI
+
+Traceback (most recent call last):
+  File "/usr/local/Dist/psi4conda/bin/psi4", line 248, in <module>
+    exec(content)
+  File "<string>", line 217, in <module>
+
+RuntimeError: 
+Fatal Error: 20 is not a valid option.
+Error occurred in file: /scratch/psilocaluser/conda-builds/psi4_1495009270718/work/psi4/src/psi4/liboptions/liboptions.h on line: 59
+The most recent 5 function calls were:
+
+psi::PsiException::PsiException(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char const*, int)
+psi::Options::use(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+py_psi_set_local_option_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+pybind11::cpp_function::dispatcher(_object*, _object*, _object*)
+

@@ -1,0 +1,8 @@
+
+  Thank you for installing Libint.
+    Manual:  github.com/psi4/libint/blob/master/README.md
+    GitHub:  github.com/evaleev/libint/tree/v1
+    Binary:  anaconda.org/psi4/libint
+    Test (after first activating conda installation or environment):
+      psi4 "$(dirname $(which psi4))"/../share/psi4/samples/mints3/test.in
+

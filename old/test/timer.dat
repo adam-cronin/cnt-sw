@@ -1,0 +1,50 @@
+
+Host: node08.cluster
+
+Timers On : Thu Nov  5 02:55:41 2020
+Timers Off: Thu Nov  5 02:55:47 2020
+
+Wall Time:        6.00 seconds
+
+JK: (A|mn)  :       0.03u       0.00s   0.019251w      3 calls
+JK: (A|Q)^-1/2:       0.03u       0.01s   0.043409w      3 calls
+JK: (Q|mn)  :       0.00u       0.00s   0.000892w      3 calls
+HF: Form H  :       0.01u       0.00s 0.00928000w      1 call
+HF: Form S/X:       0.00u       0.00s 0.00013500w      1 call
+HF: Guess   :       0.08u       0.00s 0.08478300w      1 call
+SAD Guess   :       0.08u       0.00s 0.08210400w      1 call
+JK: D       :       0.00u       0.00s   0.000099w     25 calls
+JK: USO2AO  :       0.00u       0.00s   0.000295w     25 calls
+JK: JK      :       0.01u       0.00s   0.009462w     25 calls
+JK: J       :       0.00u       0.00s   0.000713w     25 calls
+JK: J1      :       0.00u       0.00s   0.000362w     38 calls
+JK: J2      :       0.00u       0.00s   0.000239w     38 calls
+JK: K       :       0.00u       0.00s   0.008186w     25 calls
+JK: K1      :       0.00u       0.00s   0.006351w     38 calls
+JK: K2      :       0.00u       0.00s   0.001744w     38 calls
+JK: AO2USO  :       0.00u       0.00s   0.000193w     25 calls
+DIISManager::add_entry:       0.00u       0.00s   0.002575w     24 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.001228w     23 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.000352w     23 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.000469w     23 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.000304w     23 calls
+HF: Form G  :       0.01u       0.00s   0.008430w     12 calls
+HF: Form F  :       0.00u       0.00s   0.000037w     12 calls
+HF: DIIS    :       0.00u       0.00s   0.003593w     12 calls
+HF: Form C  :       0.00u       0.00s   0.000976w     12 calls
+HF: Form D  :       0.00u       0.00s   0.000028w     12 calls
+DFMP2 Singles:       0.00u       0.00s 0.00005500w      1 call
+DFMP2 Aia   :       0.03u       0.00s 0.03389500w      1 call
+DFMP2 (A|mn):       0.00u       0.00s 0.00679200w      1 call
+DFMP2 (A|mn)C_mi:       0.00u       0.00s 0.00014600w      1 call
+DFMP2 (A|mi)C_na:       0.00u       0.00s 0.00009800w      1 call
+DFMP2 Aia Write:       0.00u       0.00s 0.00010300w      1 call
+DFMP2 Qia   :       0.02u       0.00s 0.01777300w      1 call
+DFMP2 Metric:       0.02u       0.00s 0.01406600w      1 call
+DFMP2 Aia Read:       0.00u       0.00s 0.00016700w      1 call
+DFMP2 (Q|A)(A|ia):       0.00u       0.00s 0.00017200w      1 call
+DFMP2 Qia Write:       0.00u       0.00s 0.00009300w      1 call
+DFMP2 Energy:       0.00u       0.00s 0.00356300w      1 call
+DFMP2 Qia Read:       0.00u       0.00s   0.000034w      2 calls
+
+***********************************************************

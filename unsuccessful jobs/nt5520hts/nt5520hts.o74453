@@ -1,0 +1,41 @@
+hostname
+node21.cluster
+eval `/usr/bin/modulecmd tcsh load psi4conda/1.1`
+/usr/bin/modulecmd tcsh load psi4conda/1.1
+setenv LOADEDMODULES psi4conda/1.1
+setenv PATH /usr/local/Dist/psi4conda/bin:/export/Linux-x86_64/bin:/export/Linux-x86_64/Dist/bin:/export/Linux-x86_64/sbin:/export/Linux-x86_64/global/bin:/export/Linux-x86_64/global/sbin:/home/acronin/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/bin/X11:/export/Linux-x86_64/Dist/bin:/export/Linux-x86_64/sbin:/export/Linux-x86_64/global/bin:/export/Linux-x86_64/Dist/chimera/bin:/export/Linux-x86_64/Dist/Jmol/Jmol
+setenv _LMFILES_ /usr/local/Modules/modulefiles/psi4conda/1.1
+set _exit=0
+/usr/bin/test 0 = 0
+setenv PSI_SCRATCH /scratch/calpoly/acronin
+psi4 -i nt5520hts.in -o nt5520hts.out -n 10
+/usr/local/Dist/psi4conda/lib/python2.7/site-packages/v2rdm_casscf/v2rdm_casscf.so loaded.
+Traceback (most recent call last):
+  File "/usr/local/Dist/psi4conda/bin/psi4", line 248, in <module>
+    exec(content)
+  File "<string>", line 222, in <module>
+  File "/usr/local/Dist/psi4conda/lib//python2.7/site-packages/psi4/driver/driver.py", line 1050, in optimize
+    G, wfn = gradient(lowername, return_wfn=True, molecule=moleculeclone, **kwargs)
+  File "/usr/local/Dist/psi4conda/lib//python2.7/site-packages/psi4/driver/driver.py", line 606, in gradient
+    wfn = procedures['gradient'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/usr/local/Dist/psi4conda/lib//python2.7/site-packages/psi4/driver/procrouting/proc.py", line 2876, in run_dft_gradient
+    wfn = run_scf_gradient(name, **kwargs)
+  File "/usr/local/Dist/psi4conda/lib//python2.7/site-packages/psi4/driver/procrouting/proc.py", line 1958, in run_scf_gradient
+    ref_wfn = run_scf(name, **kwargs)
+  File "/usr/local/Dist/psi4conda/lib//python2.7/site-packages/psi4/driver/procrouting/proc.py", line 1942, in run_scf
+    scf_wfn = scf_helper(name, **kwargs)
+  File "/usr/local/Dist/psi4conda/lib//python2.7/site-packages/psi4/driver/procrouting/proc.py", line 1330, in scf_helper
+    e_scf = scf_wfn.compute_energy()
+
+RuntimeError: 
+Fatal Error: Iterations did not converge.
+Error occurred in file: /scratch/psilocaluser/conda-builds/psi4_1495009270718/work/psi4/src/psi4/libparallel/process.cc on line: 194
+The most recent 5 function calls were:
+
+psi::PsiException::PsiException(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char const*, int)
+psi::die_if_not_converged()
+psi::scf::HF::finalize_E()
+psi::scf::HF::compute_energy()
+
+slurmstepd: error: Exceeded step memory limit at some point.
+slurmstepd: error: Exceeded job memory limit at some point.

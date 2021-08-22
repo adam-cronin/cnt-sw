@@ -1,0 +1,23 @@
+/var/spool/pbs/mom_priv/jobs/2476765.pbs02.SC: line 17: setenv: command not found
+=>> PBS: job killed: mem 31457284kb exceeded limit 31457280kb
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libgdma.so         000014660DA8A10F  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000146621E26DD0  Unknown               Unknown  Unknown
+libmkl_avx2.so     000014659E84A2CB  mkl_blas_avx2_dge     Unknown  Unknown
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=30gb,walltime=240:00:00,ncpus=12
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cput=00:24:54,mem=31457284kb,walltime=00:21:58,ncpus=12,cpupercent=108,vmem=31457284kb
+ 
+ 

@@ -1,0 +1,57 @@
+
+Host: node01.cluster
+
+Timers On : Sat Dec 19 02:03:22 2020
+Timers Off: Sat Dec 19 02:03:23 2020
+
+Wall Time:        1.00 seconds
+
+
+***********************************************************
+
+Host: node15.cluster
+
+Timers On : Sat Dec 19 05:19:47 2020
+Timers Off: Mon Dec 21 20:43:26 2020
+
+Wall Time:   228219.00 seconds
+
+V: Grid     :     840.72u       0.27s     841.07w      1 call
+JK: (A|Q)^-1:    2201.85u     138.17s    2291.33w      1 call
+JK: (A|mn)  :    1150.23u       1.47s     115.26w     12 calls
+JK: (Q|mn)  :    9229.85u      79.29s    9291.36w     12 calls
+JK: (Q|mn) Write:       6.24u     201.86s    4900.31w     12 calls
+HF: Form H  :       0.57u       0.08s 1.48313600w      1 call
+HF: Form S/X:      11.09u       0.26s 8.11144500w      1 call
+HF: Guess   :      18.37u       0.20s      16.60w      1 call
+HF: Form G  :   36692.71u   13231.28s  207857.97w    100 calls
+RKS: Form V :   29914.20u       7.91s   29753.39w    100 calls
+V: D        :     178.47u       5.46s      36.35w    100 calls
+V: USO2AO   :       1.79u       0.13s   1.983903w    100 calls
+V: V        :   29702.86u       1.73s   29711.88w    100 calls
+Properties  :   18060.28u       0.83s   18066.60w 310000 calls
+Points      :    7700.93u       0.24s    7702.54w 310000 calls
+Functional  :     803.79u       0.07s     807.34w 310000 calls
+V_XC        :   10835.70u       0.29s   10834.85w 310000 calls
+LSDA        :    9699.83u       0.20s    9703.12w 620000 calls
+GGA         :     757.35u       0.01s     756.22w 310000 calls
+V: AO2USO   :       0.00u       0.00s   0.000238w    100 calls
+JK: D       :     183.37u       0.43s      36.02w    100 calls
+JK: USO2AO  :       1.89u       0.02s   1.871466w    100 calls
+JK: JK      :    6498.79u   13219.88s  178056.86w    100 calls
+JK: (Q|mn) Read:    1140.16u   12934.93s  172585.96w   2500 calls
+JK: J       :    5077.84u       9.98s    5090.09w   2500 calls
+JK: J1      :    2448.72u       5.81s    2455.87w   5000 calls
+JK: J2      :    2533.90u       1.04s    2535.45w   5000 calls
+JK: AO2USO  :       0.00u       0.00s   0.000135w    100 calls
+HF: Form F  :      32.70u       1.13s   3.384148w    100 calls
+HF: DIIS    :    1007.23u     162.78s    1098.89w    100 calls
+DIISManager::add_entry:     155.28u      19.66s      17.89w    100 calls
+HF: Form C  :    1701.89u       2.16s    1704.28w    100 calls
+HF: Form D  :      46.90u       0.49s      32.46w    100 calls
+DIISManager::extrapolate:      47.87u     127.44s     390.19w     99 calls
+DIISManager::extrapolate: bMatrix setup:      26.15u      80.81s     230.49w     99 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.01u       0.00s   0.008607w     99 calls
+DIISManager::extrapolate: form new data:      21.71u      46.63s     159.69w     99 calls
+
+***********************************************************

@@ -1,0 +1,74 @@
+
+Host: node01.cluster
+
+Timers On : Sat Dec 19 02:03:24 2020
+Timers Off: Sat Dec 19 02:03:25 2020
+
+Wall Time:        1.00 seconds
+
+
+***********************************************************
+
+Host: node20.cluster
+
+Timers On : Sun Jan 10 09:03:24 2021
+Timers Off: Thu Jan 14 04:20:40 2021
+
+Wall Time:   328636.00 seconds
+
+V: Grid     :    7485.51u       0.31s    7496.66w      9 calls
+JK: (A|Q)^-1:   19972.08u    1189.72s   20407.05w      9 calls
+JK: (A|mn)  :    9347.24u      10.28s     960.18w    101 calls
+JK: (Q|mn)  :   81539.04u     170.02s   81570.59w    101 calls
+JK: (Q|mn) Write:      46.97u    1729.56s   27925.24w     99 calls
+HF: Form H  :      10.83u       2.21s      27.44w      9 calls
+HF: Form S/X:      89.41u       3.35s      97.99w      9 calls
+HF: Guess   :       7.56u       0.54s      16.87w      9 calls
+SAD Guess   :       5.05u       0.15s 2.15864300w      1 call
+JK: (A|Q)^-1/2:       1.00u       0.04s   0.103432w      2 calls
+JK: D       :     205.64u       5.96s      24.47w    131 calls
+JK: USO2AO  :       1.32u       0.23s   1.424595w    131 calls
+JK: JK      :    4842.04u   15689.37s  119993.70w    131 calls
+JK: J       :    3380.70u      10.74s    3393.19w   3072 calls
+JK: J1      :    1672.82u       6.29s    1680.36w   3081 calls
+JK: J2      :    1642.71u       1.86s    1644.83w   3081 calls
+JK: K       :       0.00u       0.00s   0.000386w      9 calls
+JK: K1      :       0.00u       0.00s   0.000146w     16 calls
+JK: K2      :       0.00u       0.00s   0.000141w     16 calls
+JK: AO2USO  :       0.00u       0.00s   0.000322w    131 calls
+DIISManager::add_entry:     109.27u      14.42s      12.39w    122 calls
+DIISManager::extrapolate:      90.77u      58.58s     136.58w    113 calls
+DIISManager::extrapolate: bMatrix setup:      79.07u      37.36s      72.10w    113 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.009001w    113 calls
+DIISManager::extrapolate: form new data:      11.70u      21.22s      64.46w    113 calls
+HF: Form G  :   28249.20u   15717.05s  143165.53w    122 calls
+RKS: Form V :   23180.75u      20.39s   23139.80w    122 calls
+V: D        :     196.87u       7.41s      25.05w    122 calls
+V: USO2AO   :       1.24u       0.47s   1.660215w    122 calls
+V: V        :   22958.49u      11.80s   23109.48w    122 calls
+Properties  :   17556.57u       6.75s   17663.71w 398897 calls
+Points      :   10728.82u       4.23s   10820.57w 398897 calls
+Functional  :     963.95u       0.78s     967.90w 398897 calls
+V_XC        :    6641.62u       3.42s    6675.88w 371503 calls
+LSDA        :    5826.58u       2.51s    5831.53w 743006 calls
+GGA         :     599.92u       0.59s     601.89w 371503 calls
+V: AO2USO   :       0.00u       0.00s   0.000383w    122 calls
+JK: (Q|mn) Read:    1195.74u   15329.16s  116168.44w   3063 calls
+HF: Form F  :      34.59u       2.56s   5.126916w    122 calls
+HF: DIIS    :     770.01u      87.97s     589.80w    122 calls
+HF: Form C  :    1054.67u       4.70s    1039.30w    122 calls
+HF: Form D  :      18.36u       0.32s      18.70w    122 calls
+Grad: T     :      11.65u       0.03s      11.70w      9 calls
+Grad: V     :    8386.55u       0.25s     841.21w      9 calls
+Grad: S     :      15.55u       0.00s   7.693049w      9 calls
+Grad: JK    :  196773.43u     142.85s   39590.30w      9 calls
+JKGrad: Amn :   52029.16u     127.31s    6901.56w      9 calls
+JKGrad: Awmn:       0.00u       0.00s   0.000043w      9 calls
+JKGrad: AB  :   20223.17u      10.53s   20170.12w      9 calls
+JKGrad: UV  :       0.00u       0.00s   0.000047w      9 calls
+JKGrad: ABx :     145.84u       1.33s      17.00w      9 calls
+JKGrad: Amnx:  124317.19u       0.48s   12440.29w      9 calls
+JKGrad: Awmnx:       0.00u       0.00s   0.000068w      9 calls
+Grad: XC    :    3934.14u       0.00s    3935.51w      9 calls
+
+***********************************************************

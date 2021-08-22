@@ -1,0 +1,7 @@
+molecule{
+0 1
+C 0 0 0
+O 1.15 0 0
+}
+set basis cc-pVDZ
+energy('mp2')

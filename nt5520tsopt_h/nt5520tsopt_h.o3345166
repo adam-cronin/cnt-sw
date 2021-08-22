@@ -1,0 +1,22 @@
+/var/spool/pbs/mom_priv/jobs/3345166.pbs02.SC: line 11: $'\r': command not found
+/var/spool/pbs/mom_priv/jobs/3345166.pbs02.SC: line 12: cd: $'/home/adamcronin/nt5520tsopt_h\r': No such file or directory
+Could not find conda environment: p4env
+You can list all discoverable environments with `conda info --envs`.
+
+/var/spool/pbs/mom_priv/jobs/3345166.pbs02.SC: line 16: psi4: command not found
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=85gb,walltime=168:00:00,ncpus=12
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cput=00:00:00,mem=40804kb,walltime=00:00:02,ncpus=12,cpupercent=0,vmem=9724kb
+ 
+ 

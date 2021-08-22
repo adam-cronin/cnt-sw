@@ -1,0 +1,17 @@
+/var/spool/pbs/mom_priv/jobs/2451627.pbs02.SC: line 17: psi4: command not found
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=10gb,walltime=240:00:00,ncpus=12
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cput=00:00:00,mem=19928kb,walltime=00:00:01,ncpus=12,cpupercent=0,vmem=19928kb
+ 
+ 
